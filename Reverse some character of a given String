@@ -1,0 +1,11 @@
+// Take A String "Bangladesh" as Input then revese some Character of the String 
+// Output String will be "Banglahsed"
+
+Solution:
+
+void main(){
+
+  var desh= "Bangladesh";
+  desh= desh.substring(0, 6) + desh.substring(6, 10).split("").reversed.join();
+  print(desh);
+}
